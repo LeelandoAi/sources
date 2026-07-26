@@ -1,0 +1,42 @@
+{
+    "header": "{\"Referer\":\"https://www.linovelib.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\"}",
+    "enabled": true,
+    "bookSourceName": "哔哩轻小说",
+    "bookSourceUrl": "https://www.linovelib.com",
+    "bookSourceType": 0,
+    "bookSourceGroup": "内置书源",
+    "bookSourceComment": "哔哩轻小说(linovelib，原 bilinovel)。章节正文 #TextContent 无字体混淆；长章节按「下一页」分页跟随。搜索端点沙箱被拦，真机可用；并附「最近更新」发现入口保底。",
+    "searchUrl": "https://www.linovelib.com/search?keyword={{key}}",
+    "exploreUrl": "最近更新::https://www.linovelib.com/top/lastupdate_1.html",
+    "ruleSearch": {
+        "bookList": "li.book-li",
+        "bookName": "a.book-title@text",
+        "bookUrl": "a.book-title@href",
+        "bookCoverUrl": "a.book-cover img@src||.book-cover img@src",
+        "bookAuthor": ".book-author@text"
+    },
+    "ruleExplore": {
+        "bookList": "li.book-li",
+        "bookName": "a.book-title@text",
+        "bookUrl": "a.book-title@href",
+        "bookCoverUrl": "a.book-cover img@src||.book-cover img@src",
+        "bookAuthor": ".book-author@text"
+    },
+    "ruleBookInfo": {
+        "name": "h1.book-name@text",
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": ".book-img.fl img@src||meta[property=og:image]@content",
+        "intro": ".book-dec.Jbook-dec p@text",
+        "kind": "meta[property=og:novel:category]@content",
+        "tocUrl": "meta[property=og:novel:read_url]@content"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter-list.clearfix li.col-4 a",
+        "chapterName": "@text",
+        "chapterUrl": "@href"
+    },
+    "ruleContent": {
+        "content": "#TextContent@textNodes",
+        "nextContentUrl": "a:contains(下一页)@href"
+    }
+}

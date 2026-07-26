@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:30:34.183Z",
+  "generatedAt": "2026-07-26T06:38:37.705Z",
   "count": 9,
   "sources": [
     {
@@ -78,36 +78,6 @@
       }
     },
     {
-      "id": "novel/novel_yamibo",
-      "category": "novel",
-      "type": "novel",
-      "format": "legado",
-      "name": "百合会轻小说",
-      "version": 1,
-      "baseUrl": "https://www.yamibo.com",
-      "rawUrl": "https://raw.githubusercontent.com/nexhub-app/sources/main/sources/novel/novel_yamibo.json",
-      "builtin": true,
-      "desc": {
-        "zh": "",
-        "en": ""
-      }
-    },
-    {
-      "id": "novel/novel_biquge",
-      "category": "novel",
-      "type": "novel",
-      "format": "legado",
-      "name": "笔趣阁",
-      "version": 1,
-      "baseUrl": "https://m.biqubu3.com",
-      "rawUrl": "https://raw.githubusercontent.com/nexhub-app/sources/main/sources/novel/novel_biquge.json",
-      "builtin": true,
-      "desc": {
-        "zh": "",
-        "en": ""
-      }
-    },
-    {
       "id": "novel/novel_linovelib",
       "category": "novel",
       "type": "novel",
@@ -131,6 +101,36 @@
       "version": 1,
       "baseUrl": "https://www.huanmengacg.com",
       "rawUrl": "https://raw.githubusercontent.com/nexhub-app/sources/main/sources/novel/novel_huanmengacg.json",
+      "builtin": true,
+      "desc": {
+        "zh": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "novel/novel_yamibo",
+      "category": "novel",
+      "type": "novel",
+      "format": "legado",
+      "name": "百合会轻小说",
+      "version": 1,
+      "baseUrl": "https://www.yamibo.com",
+      "rawUrl": "https://raw.githubusercontent.com/nexhub-app/sources/main/sources/novel/novel_yamibo.json",
+      "builtin": true,
+      "desc": {
+        "zh": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "novel/novel_biquge",
+      "category": "novel",
+      "type": "novel",
+      "format": "legado",
+      "name": "笔趣阁",
+      "version": 1,
+      "baseUrl": "https://m.biqubu3.com",
+      "rawUrl": "https://raw.githubusercontent.com/nexhub-app/sources/main/sources/novel/novel_biquge.json",
       "builtin": true,
       "desc": {
         "zh": "",

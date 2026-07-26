@@ -26,7 +26,7 @@ const ROOT = path.resolve(__dirname, "..");
 const SOURCES_DIR = path.join(ROOT, "sources");
 const OUT_FILE = path.join(ROOT, "index.json");
 const RAW_BASE =
-  process.env.RAW_BASE || "https://raw.githubusercontent.com/nexhub-app/sources/main";
+  process.env.RAW_BASE || "https://cdn.jsdelivr.net/gh/nexhub-app/sources@main";
 
 const ALLOWED_CATEGORIES = ["manga", "anime", "novel"];
 

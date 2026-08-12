@@ -1,6 +1,6 @@
 {
   "id": "manga_goda",
-  "version": 4,
+  "version": 5,
   "name": "GoDa漫画",
   "type": "mangaSource",
   "responseType": "html",

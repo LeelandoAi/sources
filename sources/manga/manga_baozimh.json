@@ -2,7 +2,7 @@
   "id": "manga_baozimh",
   "name": "Bun漫畫",
   "type": "mangaSource",
-  "version": 5,
+  "version": 6,
   "author": "plexhub",
   "description": "Bun漫畫（www.baozimh.com）在線漫畫源，支持韓漫、國漫、日漫、歐美等分類，圖片經 v2.apikk.top 接口加密後客戶端解密渲染。",
   "enabled": true,
